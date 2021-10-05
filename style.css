@@ -1,0 +1,28 @@
+* {
+  font-family: Poppins;
+}
+
+main {
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  gap: 1em;
+}
+
+article {
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.species {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  padding: 3em;
+  /* border-style: solid; */
+  margin: 2em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
