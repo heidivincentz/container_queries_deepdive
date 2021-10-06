@@ -9,50 +9,48 @@
     <title>Deep Dive | Heidi</title>
   </head>
   <body>
-    <main>
-      <!-- <nav class="navigation">
-        <ul class="navlist">
-          <li><a href="index.html">Welcome</a></li>
-          <li><a href="cards.html">Cards (only works in Google Canary)</a></li>
-        </ul>
-      </nav> -->
+    <header>
+      <nav>
+        <div class="header"></div>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" />
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+          <div class="spinner diagonal part-1"></div>
+          <div class="spinner horizontal"></div>
+          <div class="spinner diagonal part-2"></div>
+        </label>
+        <div id="sidebarMenu">
+          <ul class="sidebarMenuInner">
+            <li>Heidi CC Vincentz<span>Deep dive</span></li>
+            <li>
+              <a href="index.html" target="_blank"
+                >Welcome<span>Container media queries</span></a
+              >
+            </li>
+            <li>
+              <a href="cards.html" target="_blank"
+                >Cards <span>only works in Google Canary</span></a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- <div id="center" class="main center">
+          <div class="mainInner">
+            <div>PURE CSS SIDEBAR TOGGLE MENU</div>
+          </div>
+          <div class="mainInner">
+            <div>PURE CSS SIDEBAR TOGGLE MENU</div>
+          </div>
+          <div class="mainInner">
+            <div>PURE CSS SIDEBAR TOGGLE MENU</div>
+          </div>
+        </div> -->
+      </nav>
+    </header>
 
-      <div class="header"></div>
-      <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" />
-      <label for="openSidebarMenu" class="sidebarIconToggle">
-        <div class="spinner diagonal part-1"></div>
-        <div class="spinner horizontal"></div>
-        <div class="spinner diagonal part-2"></div>
-      </label>
-      <div id="sidebarMenu">
-        <ul class="sidebarMenuInner">
-          <li>Heidi CC Vincentz<span>Deep dive</span></li>
-          <li>
-            <a href="index.html" target="_blank"
-              >Welcome<span>Container media queries</span></a
-            >
-          </li>
-          <li>
-            <a href="cards.html" target="_blank"
-              >Cards <span>only works in Google Canary</span></a
-            >
-          </li>
-        </ul>
-      </div>
-      <div id="center" class="main center">
-        <!-- <div class="mainInner">
-          <div>PURE CSS SIDEBAR TOGGLE MENU</div>
-        </div>
-        <div class="mainInner">
-          <div>PURE CSS SIDEBAR TOGGLE MENU</div>
-        </div>
-        <div class="mainInner">
-          <div>PURE CSS SIDEBAR TOGGLE MENU</div> -->
-        </div>
-      </div>
-
-      <article>
+    <main id="center" class="main center">
+      <article class="mainInner">
         <section>
+          <a href="nav.html">nav test</a>
           <h1>How to set up <span class="yellow">Google Canary</span></h1>
 
           <!-- <a href="https://www.google.com/chrome/canary/"

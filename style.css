@@ -11,10 +11,10 @@ h1 {
   line-height: 4em;
 }
 
-main {
+/* main {
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
   gap: 1em;
-}
+} */
 
 article {
 }
