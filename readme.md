@@ -8,3 +8,5 @@ Blue #11B5FA
 Darker shade of blue #1580AD
 
 Font: Poppins
+
+Navigation menu: Pure CSS Sidebar by Jelena Jovanovic https://speckyboy.com/slide-out-sidebars/, https://codepen.io/plavookac/pen/qomrMw
