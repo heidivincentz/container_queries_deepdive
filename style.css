@@ -7,6 +7,10 @@ h1 {
   font-size: 2em;
 }
 
+.howto {
+  line-height: 4em;
+}
+
 main {
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
   gap: 1em;
