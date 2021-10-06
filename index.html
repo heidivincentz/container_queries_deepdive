@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/rcq4pgu.css" />
     <title>Deep Dive | Heidi</title>
   </head>
   <body>
@@ -20,14 +21,42 @@
         </label>
         <div id="sidebarMenu">
           <ul class="sidebarMenuInner">
-            <li>Heidi CC Vincentz<span>Deep dive</span></li>
+            <li>
+              <h1>Heidi CC Vincentz</h1>
+              <span class="linkspan">Deep dive</span>
+            </li>
             <li>
               <a href="index.html" target="_blank">Welcome</a
-              ><span>Container media queries</span>
+              ><span class="linkspan">Container media queries</span>
             </li>
             <li>
               <a href="cards.html" target="_blank">Cards</a
-              ><span>only works in Google Canary</span>
+              ><span class="linkspan">only works in Google Canary</span>
+            </li>
+            <li>
+              <a
+                href="https://github.com/heidivincentz/container_queries_deepdive"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-github"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                  />
+                </svg>
+                GitHub Repository</a
+              ><span class="linkspan">Fork it and try it in Canary</span>
+            </li>
+            <li>
+              <a href="https://www.google.com/chrome/canary/" target="_blank"
+                >Download<span class="yellow"> Google Canary</span></a
+              ><span class="linkspan">Takes you to google.com</span>
             </li>
           </ul>
         </div>
@@ -48,7 +77,11 @@
     <main id="center" class="main center">
       <article class="mainInner">
         <section>
-          <a href="nav.html">nav test</a>
+          <h1>CSS Container Queries</h1>
+          <h2>What makes container queries different from media queries?</h2>
+          <p></p>
+        </section>
+        <section>
           <h1>How to set up <span class="yellow">Google Canary</span></h1>
 
           <!-- <a href="https://www.google.com/chrome/canary/"
@@ -66,34 +99,7 @@
         </section>
 
         <aside>
-          <h1>Links</h1>
-
-          <ul>
-            <li>
-              <a
-                href="https://github.com/heidivincentz/container_queries_deepdive"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-github"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-                  />
-                </svg>
-                GitHub Repository</a
-              >
-            </li>
-            <li>
-              <a href="https://www.google.com/chrome/canary/"
-                ><span class="yellow">Google Canary</span></a
-              >
-            </li>
-          </ul>
+          <h1>Aside if you need it</h1>
         </aside>
       </article>
     </main>

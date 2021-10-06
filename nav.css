@@ -63,10 +63,10 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   padding: 20px;
-  cursor: pointer;
+  /* cursor: pointer; */
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-.sidebarMenuInner li span {
+.sidebarMenuInner li .linkspan {
   display: block;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
@@ -75,7 +75,7 @@ body {
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
-  cursor: pointer;
+  /* cursor: pointer; */
   text-decoration: none;
 }
 input[type="checkbox"]:checked ~ #sidebarMenu {
@@ -90,7 +90,7 @@ input[type="checkbox"] {
 .sidebarIconToggle {
   transition: all 0.3s;
   box-sizing: border-box;
-  cursor: pointer;
+  /* cursor: pointer; */
   position: absolute;
   z-index: 99;
   height: 100%;
