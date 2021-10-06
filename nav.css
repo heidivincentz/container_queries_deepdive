@@ -27,6 +27,8 @@ body {
   display: block;
   height: 100%;
   margin-top: 60px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 .mainInner {
   display: table;
@@ -144,4 +146,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   box-sizing: border-box;
   transform: rotate(-135deg);
   margin-top: -9px;
+}
+
+main {
 }

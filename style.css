@@ -3,6 +3,7 @@
   background-color: #252525;
   color: #ffffff;
 }
+
 h1 {
   font-size: 1.7em;
   font-family: poppins;
@@ -17,9 +18,6 @@ h1 {
   gap: 1em;
 } */
 
-article {
-}
-
 img {
   height: auto;
   max-width: 100%;
@@ -31,16 +29,28 @@ img {
 }
 
 section {
+  display: flex;
+  flex-direction: column;
   padding: 3em;
   /* border-style: solid; */
   margin: 2em;
   box-shadow: rgba(100, 100, 111, 0.6) 0px 7px 29px 0px;
 }
+
 aside {
   padding: 3em;
-
+  grid-column: 2/3;
   margin: 2em;
   box-shadow: rgba(100, 100, 111, 0.6) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+@media screen and (max-width: 900px) {
+  aside,
+  article {
+    grid-column: 1/3;
+  }
 }
 
 footer {
