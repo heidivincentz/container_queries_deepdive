@@ -50,11 +50,13 @@ section {
 aside {
   padding: 3em;
   grid-column: 2/3;
+
   margin: 2em;
   box-shadow: rgba(100, 100, 111, 0.6) 0px 7px 29px 0px;
   display: flex;
   flex-direction: column;
   text-align: left;
+  flex-basis: 50%;
 }
 @media screen and (max-width: 900px) {
   aside,
@@ -132,4 +134,41 @@ a:hover {
 .inlinelink {
   font-size: 1em;
   color: #6511fa;
+}
+
+/* Firefox */
+
+.oxcards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+}
+
+/* Google Canary */
+
+.moo {
+  display: flex;
+  flex-direction: column;
+}
+.secondoxcard {
+  contain: layout inline-size style;
+}
+@container (min-width: 60rem) {
+  .moo {
+    flex: 1 1 0px;
+    flex-direction: row;
+  }
+  .moo > img,
+  h1,
+  p {
+    /* flex-grow: 1;
+    flex-basis: 1; */
+  }
+  .moo > img {
+    object-fit: cover;
+    width: 50%;
+  }
+
+  .cardtext {
+    margin-left: 2em;
+  }
 }
