@@ -37,10 +37,6 @@ blockquote::before {
   vertical-align: -0.4em;
 }
 
-.howto {
-  margin-bottom: 3.5em;
-}
-
 /* main {
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
   gap: 1em;
@@ -122,6 +118,9 @@ footer {
 video {
   margin-bottom: 2em;
   max-width: 100%;
+}
+.howto {
+  margin-bottom: 3.5em;
 }
 
 /* Navigation */
