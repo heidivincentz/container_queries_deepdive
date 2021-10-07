@@ -39,9 +39,8 @@ vertical-align:-0.4em;}
 }
 
 
-.howto {
-  line-height: 4em;
-}
+ol{list-style: none;}
+.howto{margin-bottom: 3.5em;}
 
 /* main {
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
