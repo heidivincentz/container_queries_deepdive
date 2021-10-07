@@ -7,6 +7,16 @@
 h1 {
   font-size: 1.7em;
   font-family: poppins;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: poppins;
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 1em;
 }
 
 .howto {
@@ -64,6 +74,20 @@ footer {
   color: #fbbc04;
 }
 
+.references {
+  font-size: 1em;
+}
+.referencelist {
+  list-style: none;
+}
+.referencepoint {
+  margin-bottom: 4em;
+}
+
+video {
+  margin-bottom: 2em;
+}
+
 /* Navigation */
 
 .navlist {
@@ -104,3 +128,8 @@ a:hover {
   display: flex;
   flex-direction: row;
 } */
+
+.inlinelink {
+  font-size: 1em;
+  color: #6511fa;
+}
