@@ -76,11 +76,12 @@ footer {
   color: #fbbc04;
 }
 
-.references {
+.referencelink {
   font-size: 1em;
 }
 .referencelist {
   list-style: none;
+  line-height: ;
 }
 .referencepoint {
   margin-bottom: 4em;
